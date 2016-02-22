@@ -1,0 +1,12 @@
+language: ruby
+cache: bundler
+rvm:
+- 2.3.0
+script: "./_bin/deploy"
+branches:
+  only:
+    - master
+env:
+  global:
+    - GITHUB_REPO_SLUG=theyworkforyou/shineyoureye
+    - secure: "ITY9C7phTX7TtnEBzndX73CzABJHiDdaKbIxrwyq9lWPcFRWye8uU1lmM3yxZ+cnFTIRCL44lIdV5lMBzOMzHvc3z8wcVHzADFpYzNv/RXGdz4FbMHGEEdNewEdipVDcmmP2OzzKbGUcxeJTLmyX/PsMPvNm+Wdfr/6RUQ4NXT8fLzwuypCPZQxuNARvp8hbW31Q+eK0RlhIVbvp6VgKHNjlg4hgeaRhxcnQjJ3YxqSkn2incODTcScNvcDUZ6+hbMPrFcdUhHZ5rnEdkg6us+wgnJZXX82IHNBhQZVctE2SyFn0IhX6qOD4TQZbb8q2ZoRmUmuD/+t4nJ16/GF/7fQ7MghVHxEeUMqLsc+f19HHxWEu8/BJk96irjKVkni5SOfIoUkjGk+wXzoeqvnQaaO+2mwp7TYVvrCYQYP5FpzHzIxZYFsOUb6bu2dJSbx/IMVHk0i8B+CS3GXbxVJw+0CuxfDYqi6xOnHhoBb2gBYLELqZZ0KrxPH8DWXgggT4ydQ7sk/h1IzES3K4FllFfkAfSU1V9+KtJlguI/jmEDllZ7I/IpMJM4eJmo983V5VfsdRlcdJTHiIp4XypiURz6OPGi9zqHTTLAQ/zJLVrY0qLxMLS6xsoF/fKFzLpR24k1sBRJmwrSqXKD0bdxnH4nV0/ldIQ7WMMVlLW6F/nlY="
