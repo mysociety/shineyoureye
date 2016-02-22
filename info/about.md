@@ -2,6 +2,7 @@
 title: About
 slug: about
 permalink: "/info/about/"
+layout: page
 ---
 
 Shine your Eye is an initiative of [Enough is Enough Nigeria (EiENigeria)](http://www.eienigeria.org "EiENigeria") with support from [Policy and Legal Advocacy Center](http://www.placng.org "PLAC").

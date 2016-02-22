@@ -2,6 +2,7 @@
 title: National Assembly Overview
 slug: national-assembly-overview
 permalink: "/info/national-assembly-overview/"
+layout: page
 ---
 
 The National Assembly is Nigeria’s bicameral legislature and the highest elective law-making body of the country. It consists of the 109-member Senate and the 360-member House of Representatives. The term of the National Assembly is 4-years from the date of its first sitting after the general elections. 

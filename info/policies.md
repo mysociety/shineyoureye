@@ -2,6 +2,7 @@
 title: Policies
 slug: policies
 permalink: "/info/policies/"
+layout: page
 ---
 
 **Shineyoureye** has separate policies relating to the operation of this website.

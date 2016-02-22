@@ -2,6 +2,7 @@
 title: State Government Elections
 slug: state-government-elections
 permalink: "/info/state-government-elections/"
+layout: page
 ---
 
 STATE | INCUMBENT GOVERNOR | PARTY |ELECTION DATE

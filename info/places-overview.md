@@ -2,6 +2,7 @@
 title: Places Overview
 slug: places-overview
 permalink: "/info/places-overview/"
+layout: page
 ---
 
 Nigeria is divided into 36 [States](http://www.shineyoureye.org/place/is/state/ "States of Nigeria") and the Federal Capital Territory (FCT), Abuja.

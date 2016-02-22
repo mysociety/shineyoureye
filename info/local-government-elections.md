@@ -2,6 +2,7 @@
 title: Local Government Elections
 slug: local-government-elections
 permalink: "/info/local-government-elections/"
+layout: page
 ---
 
 ### Local Government Elections in Nigeria (as of June 1, 2015)

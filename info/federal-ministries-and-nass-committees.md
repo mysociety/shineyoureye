@@ -2,6 +2,7 @@
 title: Federal Ministries and NASS Committees
 slug: federal-ministries-and-nass-committees
 permalink: "/info/federal-ministries-and-nass-committees/"
+layout: page
 ---
 
 24 Federal Ministries, 66 Senate Committees and 96 House of Reps Committees

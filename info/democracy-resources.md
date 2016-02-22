@@ -2,6 +2,7 @@
 title: Democracy Resources
 slug: democracy-resources
 permalink: "/info/democracy-resources/"
+layout: page
 ---
 
 **Democracy** noun \di-ˈmä-krə-sē\- A government in which the supreme power is vested in the people.

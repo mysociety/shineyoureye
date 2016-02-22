@@ -2,6 +2,7 @@
 title: Elections
 slug: elections
 permalink: "/info/elections/"
+layout: page
 ---
 
 ELECTIONS | TENURE ELAPSES	| ELECTIONS DATE 

@@ -2,6 +2,7 @@
 title: INEC 2014 Voter Registration and PVC Distribution
 slug: inec-2014-voter-registration-and-pvc-distribution
 permalink: "/info/inec-2014-voter-registration-and-pvc-distribution/"
+layout: page
 ---
 
 INEC Commencement of Distribution of Permanent Voter Cards and Continuous Voter Registration Exercise

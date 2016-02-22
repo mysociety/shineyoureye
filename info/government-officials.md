@@ -2,6 +2,7 @@
 title: Government officials
 slug: government-officials
 permalink: "/info/government-officials/"
+layout: page
 ---
 
 [National Assembly](http://www.nassnig.org "National Assembly")
