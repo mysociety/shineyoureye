@@ -1,0 +1,30 @@
+---
+layout: default
+permalink: /blog/
+title: Blog
+breadcrumbs: []
+---
+
+<h1>Blog</h1>
+
+<div class="blog-list">
+
+  {% for post in site.posts %}
+
+  <div class="blog-in-a-list">
+
+    <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+
+    <p class="meta">{{ post.date | date: "%b. %e, %Y" }}</p>
+
+    <div>
+      {{ post.excerpt }}
+    </div>
+
+    <p><a href="{{ post.url | prepend: site.baseurl }}">Read more …</a></p>
+
+  </div>
+
+  {% endfor %}
+
+</div>
