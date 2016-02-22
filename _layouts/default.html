@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include main_menu.html %}
+
+    {% include header.html %}
+
+    {% include breadcrumbs.html %}
+
+    <div id="page">
+      <div class="page-wrapper wrapper">
+        {{ content }}
+        <br clear="both">
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+</html>
