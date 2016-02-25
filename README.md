@@ -19,7 +19,7 @@ Install the dependencies with bundler
 
 Once you've installed the code you can start a server using jekyll
 
-    $ bundle exec jekyll serve -w
+    $ bundle exec jekyll serve -w -c _config.yml,_config.development.yml
 
 This will start a webserver running at <http://localhost:4000>.
 
