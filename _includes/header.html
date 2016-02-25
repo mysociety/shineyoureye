@@ -1,17 +1,17 @@
 <header id="site-header">
   <div class="wrapper">
 
-    <a href="/" id="logo">ShineYourEye</a>
+    <a href="{{ site.url }}{{ site.baseurl }}/" id="logo">ShineYourEye</a>
 
 
     <menu id="mobile-top-tools">
       <ul>
         <li><a href="#footer-menu" class="m-icon-nav">menu</a></li>
-        <li><a href="/search/" class="icon-search"><img src="/images/search-icon.png" alt="search"/></a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/search/" class="icon-search"><img src="{{ site.url }}{{ site.baseurl }}/images/search-icon.png" alt="search"{{ site.url }}{{ site.baseurl }}/></a></li>
       </ul>
     </menu>
 
-    <form action="/search/" method="get" id="header-search">
+    <form action="{{ site.url }}{{ site.baseurl }}/search/" method="get" id="header-search">
       <label for="header-search-input">Search people, places, parties or PU number:</label>
       <input class="search-autocomplete-name" id="header-search-input" type="text" name="q" placeholder="e.g. Lagos, Babatunde Fashola, PU number" />
       <button type="submit">Search</button>
