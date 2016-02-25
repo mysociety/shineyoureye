@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+{% assign person = page %}
+{% assign membership = person.memberships | first %}
+{% assign party = membership.party %}
+{% assign area = membership.area %}
+
+<div class="title-space">
+  <div class="title-space__name">
+    <h1>{{ person.name }}</h1>
+    <p>Politician profile</p>
+  </div>
+</div>
+
+<div class="profile-pic">
+  {% if person.image %}
+    <img src="{{ person.image }}" srcset="{{ person.image }}" alt="{{ person.name }}">
+  {% else %}
+    <img src="/images/person-210x210.jpg" alt="Person logo">
+  {% endif %}
+</div>
+
+<div class="profile-info">
+
+  <div class="sidebar">
+    <div class="constituency-party">
+
+      {% if area %}
+      <h3>Constituency</h3>
+      <ul>
+        <li><a href="{{ area.url }}">{{ area.name }}</a></li>
+      </ul>
+      {% endif %}
+
+      <h3>Party</h3>
+      <ul class="party-memberships">
+        <li><a href="{{ party.url }}" class="party-membership party-membership--political-party">{{ party.name }}</a></li>
+      </ul>
+    </div>
+  </div>
+
+  {% include social.html %}
+
+</div>
+
+<div class="large-container profile-bulk">
+
+  {% if person.summary %}
+  <h2>Summary</h2>
+  <div class="person-summary">
+    <p>{{ person.summary }}</p>
+  </div>
+  {% endif %}
+
+  {% if person.executive_positions.size > 0 %}
+  <h2>Experience</h2>
+  <ul class="unstyled-list">
+    {% assign executive_positions = person.executive_positions | sort: 'start_date' | reverse %}
+    {% for position in executive_positions %}
+    <li>
+      <a href="{{ position.executive_positions_by_role.url }}" class="experience__item">
+        {% include person_experience_item.html item=position %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if person.job_history.size > 0 %}
+  <h2>Job history</h2>
+  <ul class="unstyled-list">
+    {% assign job_history = person.job_history | sort: 'start_date' | reverse %}
+    {% for job in job_history %}
+    <li class="experience__item">
+      {% include person_experience_item.html item=job %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if person.education.size > 0 %}
+  <h2>Education</h2>
+  <ul class="unstyled-list">
+    {% assign education_history = person.education | sort: 'start_date' | reverse %}
+    {% for education in education_history %}
+    <li>
+      {% include person_experience_item.html item=education %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% include comments.html %}
+
+</div>
