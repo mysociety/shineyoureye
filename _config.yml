@@ -21,6 +21,22 @@ markdown: kramdown
 permalink: /blog/:title/
 exclude: [Gemfile, Gemfile.lock, vendor, README.md, config.rb]
 
+everypolitician:
+  sources:
+    assembly: https://github.com/everypolitician/everypolitician-data/raw/master/data/Nigeria/Assembly/ep-popolo-v1.0.json
+
+collections:
+  # Assembly
+  assembly_people:
+    output: true
+    permalink: '/assembly/person/:path/'
+  assembly_organizations:
+    output: true
+    permalink: '/assembly/organisation/:path/'
+  assembly_areas:
+    output: true
+    permalink: '/assembly/place/:path/'
+
 defaults:
   - scope:
       path: "info"
