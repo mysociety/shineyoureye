@@ -5,6 +5,4 @@ permalink: "/info/events/"
 layout: page
 ---
 
-![FCT Local Government Chairmanship & Councillorship Elections](
-
-/file_archive/FCTDecidesLocal "#FCTDecidesLocal")
+![FCT Local Government Chairmanship & Councillorship Elections](/file_archive/FCTDecidesLocal "#FCTDecidesLocal")
