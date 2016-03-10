@@ -48,11 +48,11 @@
     float: left;
     width: 50px;
     height: 30px;
-    background: $colour_primary_light url(../images/search-icon.png) center no-repeat;
-    @include background(url(../images/search-icon.png) center no-repeat, linear-gradient($colour_primary_light, $colour_primary));
+    background: $colour_primary_light url(/static/images/search-icon.png) center no-repeat;
+    @include background(url(/static/images/search-icon.png) center no-repeat, linear-gradient($colour_primary_light, $colour_primary));
     &:hover {
-      background: $colour_primary url(../images/search-icon.png) center no-repeat;
-      @include background(url(../images/search-icon.png) center no-repeat, linear-gradient($colour_primary, $colour_primary_light)); } }
+      background: $colour_primary url(/static/images/search-icon.png) center no-repeat;
+      @include background(url(/static/images/search-icon.png) center no-repeat, linear-gradient($colour_primary, $colour_primary_light)); } }
   >a {
     float: left;
     margin: 10px 0 0 0;
@@ -256,7 +256,7 @@ ul#home-news-list {
     .tw-wrap {
       padding: 20px;
       min-height: 58px;
-      background: url(../images/quotes.png) 10px 10px no-repeat; }
+      background: url(/static/images/quotes.png) 10px 10px no-repeat; }
     p {
       margin: 0;
       &.meta {
@@ -283,7 +283,7 @@ ul#home-news-list {
       position: absolute;
       bottom: 17px;
       left: -4px;
-      background: url(../images/nub.png) 0 0 no-repeat; }
+      background: url(/static/images/nub.png) 0 0 no-repeat; }
     .tw-follow {
       @include inline-block; } }
   .featured-person {
@@ -305,12 +305,12 @@ ul#home-news-list {
           float: left;
           @include opacity(0.7); }
         .feature-prev {
-          background: transparent url(../images/chevron-left-alt.png) center no-repeat;
+          background: transparent url(/static/images/chevron-left-alt.png) center no-repeat;
           margin-right: 10px;
           &:hover {
             @include opacity(1); } }
         .feature-next {
-          background: transparent url(../images/chevron-right-alt.png) center no-repeat;
+          background: transparent url(/static/images/chevron-right-alt.png) center no-repeat;
           &:hover {
             @include opacity(1); } } }
       h2 {

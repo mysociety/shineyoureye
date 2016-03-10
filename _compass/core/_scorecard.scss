@@ -12,7 +12,7 @@ h3.scorecard-overall {
     height: 22px;
     font-weight: normal;
     display: block;
-    background: url(../images/m-smiley-sprite.png) right -3px no-repeat;
+    background: url(/static/images/m-smiley-sprite.png) right -3px no-repeat;
     &.score-overall-good {
       background-position: right -3px; }
     &.score-overall-average {
@@ -31,7 +31,7 @@ span.scorecard-single-smiley {
   height: 50px;
   width:  50px;
 
-  background: url(../images/m-smiley-sprite.png) right -3px no-repeat;
+  background: url(/static/images/m-smiley-sprite.png) right -3px no-repeat;
 
   &.score-overall-good {
     background-position: -3px -3px;
@@ -70,13 +70,13 @@ ul.scorecard {
           margin: -20px 0 0 0;
           padding-top: 20px;
           &.score-good {
-            background: url(../images/score-good.png) right 0 no-repeat; }
+            background: url(/static/images/score-good.png) right 0 no-repeat; }
           &.score-average {
-            background: url(../images/score-average.png) right 0 no-repeat; }
+            background: url(/static/images/score-average.png) right 0 no-repeat; }
           &.score-bad {
-            background: url(../images/score-bad.png) right 0 no-repeat; }
+            background: url(/static/images/score-bad.png) right 0 no-repeat; }
           &.score-disabled {
-            background: url(../images/score-disabled.png) right 0 no-repeat; } }
+            background: url(/static/images/score-disabled.png) right 0 no-repeat; } }
         .details {
           span.shout {
             display: block;

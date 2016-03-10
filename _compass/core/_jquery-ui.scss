@@ -13,7 +13,7 @@
 // Since the main jquery-ui.css file was just a concatenation of
 // the structure and theme files, we simply @import them instead.
 
-$imagesDirectory: '../images';
+$imagesDirectory: '/static/images';
 
 @import 'jquery-ui.structure';
 @import 'jquery-ui.theme';

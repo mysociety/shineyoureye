@@ -40,18 +40,18 @@
   height: 42px;
   text-indent: -999999em;
   width: 147px;
-  background: url(../images/m-logo.png) 0 center no-repeat;
+  background: url(/static/images/m-logo.png) 0 center no-repeat;
   @media only all and (min-width: 640px), print {
     position: absolute;
     left: 0;
     top: 10px;
     height: 34px;
     width: 418px;
-    background: url(../images/d-logo.png) 0 center no-repeat;
+    background: url(/static/images/d-logo.png) 0 center no-repeat;
     &.down {
       width: 600px;
       height: 50px;
-      background: url(../images/down-logo.png) 0 center no-repeat; } } }
+      background: url(/static/images/down-logo.png) 0 center no-repeat; } } }
 
 // ------------------------------------------------------
 
@@ -95,7 +95,7 @@ menu#mobile-top-tools {
   button {
     float: left;
     @include button-reset;
-    background: $colour_black url(../images/search-icon.png) center no-repeat;
+    background: $colour_black url(/static/images/search-icon.png) center no-repeat;
     width: 26px;
     height: 26px;
     margin: 0 0 0 0;

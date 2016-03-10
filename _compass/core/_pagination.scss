@@ -16,12 +16,12 @@
       padding-left: 34px;
       background-position: 5px -67px;
       background-repeat: no-repeat;
-      background-image: url(../images/pagination.png); }
+      background-image: url(/static/images/pagination.png); }
     &.next {
       padding-right: 34px;
       background-position: right 3px;
       background-repeat: no-repeat;
-      background-image: url(../images/pagination.png); } }
+      background-image: url(/static/images/pagination.png); } }
   .disabled {
     display: none; }
   .current {

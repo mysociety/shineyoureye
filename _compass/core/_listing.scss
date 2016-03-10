@@ -57,10 +57,10 @@ ul.listing {
         padding: 0;
         width: 24px;
         height: 24px;
-        background: $colour_black url(../images/chevron-right.png) 6px 2px no-repeat;
+        background: $colour_black url(/static/images/chevron-right.png) 6px 2px no-repeat;
         @include border-radius(24px);
         &:hover {
-          background: $colour_blackish url(../images/chevron-right.png) 6px center no-repeat; } } } } }
+          background: $colour_blackish url(/static/images/chevron-right.png) 6px center no-repeat; } } } } }
 
 @media only all and (min-width: 640px), print {
   ul.listing {

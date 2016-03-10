@@ -89,17 +89,17 @@
           border: none;
           margin-left: -4px;
           text-indent: -999999px;
-          background: $colour_blackish url(../images/chevron-right.png) 9px center no-repeat;
-          @include background(url(../images/chevron-right.png) 9px center no-repeat, linear-gradient($colour_blackish, $colour_black));
+          background: $colour_blackish url(/static/images/chevron-right.png) 9px center no-repeat;
+          @include background(url(/static/images/chevron-right.png) 9px center no-repeat, linear-gradient($colour_blackish, $colour_black));
 
           &:hover {
-            background: $colour_blackish / 0.9 url(../images/chevron-right.png) 9px center no-repeat;
-            @include background(url(../images/chevron-right.png) 9px center no-repeat, linear-gradient($colour_blackish / 0.9, $colour_black));
+            background: $colour_blackish / 0.9 url(/static/images/chevron-right.png) 9px center no-repeat;
+            @include background(url(/static/images/chevron-right.png) 9px center no-repeat, linear-gradient($colour_blackish / 0.9, $colour_black));
           }
 
           &:active {
-            background: $colour_black url(../images/chevron-right.png) 9px center no-repeat;
-            @include background(url(../images/chevron-right.png) 9px center no-repeat, linear-gradient($colour_black, $colour_blackish));
+            background: $colour_black url(/static/images/chevron-right.png) 9px center no-repeat;
+            @include background(url(/static/images/chevron-right.png) 9px center no-repeat, linear-gradient($colour_black, $colour_blackish));
           }
         }
       }

@@ -96,7 +96,7 @@
     a {
       font-size: 13px;
       display: block;
-      background: $colour_light_grey url(../images/chevron-right.png) right center no-repeat;
+      background: $colour_light_grey url(/static/images/chevron-right.png) right center no-repeat;
       color: $colour_black;
       text-decoration: none;
 
@@ -309,7 +309,7 @@
       height: 32px;
       padding: 5px 0 0 130px;
       margin: -5px 0 0 24px;
-      background: url(../images/d-smiley-sprite.png) 0 0 no-repeat;
+      background: url(/static/images/d-smiley-sprite.png) 0 0 no-repeat;
 
       &.score-overall-good {
         background-position: left -2px;
@@ -354,19 +354,19 @@
         padding: 0 0 4px 60px;
 
         &.score-good {
-          background: url(../images/score-good.png) left 0 no-repeat;
+          background: url(/static/images/score-good.png) left 0 no-repeat;
         }
 
         &.score-average {
-          background: url(../images/score-average.png) left 0 no-repeat;
+          background: url(/static/images/score-average.png) left 0 no-repeat;
         }
 
         &.score-bad {
-          background: url(../images/score-bad.png) left 0 no-repeat;
+          background: url(/static/images/score-bad.png) left 0 no-repeat;
         }
 
         &.score-disabled {
-          background: url(../images/score-disabled.png) left 0 no-repeat;
+          background: url(/static/images/score-disabled.png) left 0 no-repeat;
         }
       }
     }
