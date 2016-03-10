@@ -23,6 +23,7 @@ exclude: [Gemfile, Gemfile.lock, vendor, README.md, config.rb]
 everypolitician:
   sources:
     assembly: https://github.com/everypolitician/everypolitician-data/raw/master/data/Nigeria/Assembly/ep-popolo-v1.0.json
+    senate: https://github.com/everypolitician/everypolitician-data/raw/nigeria-senate/data/Nigeria/Senate/ep-popolo-v1.0.json
 
 collections:
   # Assembly
@@ -35,6 +36,17 @@ collections:
   assembly_areas:
     output: true
     permalink: '/assembly/place/:path/'
+
+  # Senate
+  senate_people:
+    output: true
+    permalink: '/senate/person/:path/'
+  senate_organizations:
+    output: true
+    permalink: '/senate/organisation/:path/'
+  senate_areas:
+    output: true
+    permalink: '/senate/place/:path/'
 
 defaults:
   - scope:
