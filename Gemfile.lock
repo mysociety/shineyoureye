@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/everypolitician/jekyll-facebook_comments
+  revision: 23375c9591de812839cdd2b98d1f2e1686173ec8
+  branch: master
+  specs:
+    jekyll-facebook_comments (0.1.0)
+      liquid (>= 3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -37,6 +45,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-everypolitician
+  jekyll-facebook_comments!
 
 BUNDLED WITH
    1.11.2
