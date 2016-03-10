@@ -37,6 +37,17 @@ collections:
     output: true
     permalink: '/assembly/place/:path/'
 
+  # Senate
+  senate_people:
+    output: true
+    permalink: '/senate/person/:path/'
+  senate_organizations:
+    output: true
+    permalink: '/senate/organisation/:path/'
+  senate_areas:
+    output: true
+    permalink: '/senate/place/:path/'
+
 defaults:
   - scope:
       path: "info"
