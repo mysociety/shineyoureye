@@ -52,6 +52,14 @@ collections:
     output: true
     permalink: '/senate/place/:path/'
 
+collections_to_search:
+  - assembly_people
+  - senate_people
+  - assembly_organizations
+  - senate_organizations
+  - assembly_areas
+  - senate_areas
+
 defaults:
   - scope:
       path: "info"
