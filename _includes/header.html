@@ -11,12 +11,9 @@
       </ul>
     </menu>
 
-    <form action="{{ site.url }}{{ site.baseurl }}/search/" method="get" id="header-search">
-      <label for="header-search-input">Search people, places, parties or PU number:</label>
-      <input class="search-autocomplete-name" id="header-search-input" type="text" name="q" placeholder="e.g. Lagos, Babatunde Fashola, PU number" />
-      <button type="submit">Search</button>
-    </form>
-
+    <div id="header-search">
+      {% jekyll_search_box %}
+    </div>
 
   </div>
 </header>
