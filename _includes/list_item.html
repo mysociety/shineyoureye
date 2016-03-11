@@ -7,23 +7,21 @@ Requires the following variables to be in the current scope:
 - area
 
 {% endcomment %}
-
-<li class="position">
+<li>
   <a href="{{ person.url }}">
-    <div class="image-wrapper">
-      {% if person.image %}
-        <img src="{{ person.image }}" srcset="{{ person.image }}" alt="{{ person.name }}">
-      {% else %}
-        <img src="/images/person-210x210.jpg" alt="Person logo">
-      {% endif %}
-    </div>
-    <span class="listing__name">{{ person.name }}</span> <a class="listing__party" href="{{ party.url }}">{{ party.name }}</a>
+    {% if person.image %}
+    <img src="{{ person.image }}" srcset="{{ person.image }}" alt="{{ person.name }}">
+    {% else %}
+    <img src="/images/person-210x210.jpg" alt="Person logo">
+    {% endif %}
   </a>
 
-  {% if area %}
-  <div>
-    <a class="listing__area" href="{{ area.url }}">{{ area.name }}</a>
-  </div>
-  {% endif %}
-
+  <section>
+    <h4><a href="{{ person.url }}">{{ person.name }}</a></h4>
+    <p>
+      Constituency: <a class="listing__area" href="{{ area.url }}">{{ area.name }}</a> |
+      Party: <a class="listing__party" href="{{ party.url }}">{{ party.name }}</a>
+    </p>
+    <div class="read-more-wrap"><a href="{{ person.url }}" class="read-more">read more</a></div>
+  </section>
 </li>
