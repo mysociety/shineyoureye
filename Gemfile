@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
+gem 'rack-jekyll'
+gem 'puma'
 
 group :jekyll_plugins do
   gem 'jekyll-everypolitician'
