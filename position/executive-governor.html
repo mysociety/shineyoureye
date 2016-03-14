@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: /position/executive-governor/
+title: Executive Governor
+---
+
+<h1 class="page-title">Executive Governor</h1>
+
+<ul class="position-listing">
+  {% for membership in site.executive_governors %}
+  <li class="position">
+    <div class="position-image-wrapper">
+      {% if membership.image %}
+      <img src="{{ membership.image }}" alt="{{ membership.person_name }}" width="50">
+      {% else %}
+      <img src="/images/person-210x210.jpg" alt="{{ membership.person_name }}" width="50">
+      {% endif %}
+    </div>
+    <span class="name">{{ membership.person_name }}</span>
+
+    <p>
+      Executive Governor
+      for
+      {{ membership.area }}
+    </p>
+  </li>
+  {% endfor %}
+</ul>
