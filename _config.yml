@@ -63,6 +63,7 @@ collections_to_search:
   - senate_organizations
   - assembly_areas
   - senate_areas
+  - executive_governors
 
 remote_csv:
   executive_governors:
