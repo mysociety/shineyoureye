@@ -7,7 +7,8 @@ title: Executive Governor
 <h1 class="page-title">Executive Governor</h1>
 
 <ul class="position-listing">
-  {% for person in site.executive_governors | sort: "name" %}
+  {% assign executive_governors = site.executive_governors | sort:"name" | sort:"end_date","first" %}
+  {% for person in executive_governors %}
   <li class="position">
     <a href="{{ person.url }}">
       <div class="position-image-wrapper">
@@ -20,7 +21,17 @@ title: Executive Governor
       <span class="name">{{ person.name }}</span>
     </a>
 
-    <p>Executive Governor for {{ person.area }}</p>
+    <p>
+      Executive Governor for {{ person.area }}
+      {% if person.end_date %}
+        {% assign date_size = person.end_date | size %}
+        {% if date_size == 4 %}
+          until {{ person.end_date }}
+        {% else %}
+          until {{ person.end_date | date_to_string }}
+        {% endif %}
+      {% endif %}
+    </p>
   </li>
   {% endfor %}
 </ul>

@@ -9,12 +9,13 @@ layout: default
     <h1>{{ person.name }}</h1>
     <p>
       Executive Governor for {{ person.area }}
-      {% if person.start_date and person.end_date %}
-        {{ person.start_date | date_to_string }} - {{ person.end_date | date_to_string }}
-      {% elsif person.start_date %}
-        since {{ person.start_date | date_to_string }}
-      {% elsif person.end_date %}
-        until {{ person.end_date | date_to_string }}
+      {% if person.end_date %}
+        {% assign date_size = person.end_date | size %}
+        {% if date_size == 4 %}
+          until {{ person.end_date }}
+        {% else %}
+          until {{ person.end_date | date_to_string }}
+        {% endif %}
       {% endif %}
     </p>
   </div>
