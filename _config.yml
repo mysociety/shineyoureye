@@ -60,6 +60,10 @@ collections_to_search:
   - assembly_areas
   - senate_areas
 
+remote_csv:
+  executive_governors:
+    source: https://github.com/theyworkforyou/shineyoureye_data/raw/master/executive_governors.csv
+
 defaults:
   - scope:
       path: "info"
