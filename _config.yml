@@ -18,7 +18,7 @@ twitter_username: NGShineyoureye
 # Build settings
 markdown: kramdown
 permalink: /blog/:title/
-exclude: [Gemfile, Gemfile.lock, vendor, README.md, config.rb]
+exclude: [Gemfile, Gemfile.lock, vendor, README.md, config.rb, app.json]
 
 # TODO: Enable once the site has gone live
 # google_analytics:
