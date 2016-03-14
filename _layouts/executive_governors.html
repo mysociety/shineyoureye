@@ -8,7 +8,7 @@ layout: default
   <div class="title-space__name">
     <h1>{{ person.name }}</h1>
     <p>
-      Executive Governor for {{ person.area }}
+      <a href="/position/executive-governor">Executive Governor</a> for {{ person.area }}
       {% if person.end_date %}
         {% assign date_size = person.end_date | size %}
         {% if date_size == 4 %}
