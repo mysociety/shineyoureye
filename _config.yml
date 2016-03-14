@@ -18,7 +18,7 @@ twitter_username: NGShineyoureye
 # Build settings
 markdown: kramdown
 permalink: /blog/:title/
-exclude: [Gemfile, Gemfile.lock, vendor, README.md, config.rb]
+exclude: [Gemfile, Gemfile.lock, vendor, README.md, config.rb, app.json]
 
 # TODO: Enable once the site has gone live
 # google_analytics:
@@ -52,6 +52,10 @@ collections:
     output: true
     permalink: '/senate/place/:path/'
 
+  executive_governors:
+    output: true
+    permalink: '/governors/person/:path/'
+
 collections_to_search:
   - assembly_people
   - senate_people
@@ -59,6 +63,12 @@ collections_to_search:
   - senate_organizations
   - assembly_areas
   - senate_areas
+  - executive_governors
+
+remote_csv:
+  executive_governors:
+    source: https://github.com/theyworkforyou/shineyoureye_data/raw/master/executive_governors.csv
+    collection_slug_field: slug
 
 defaults:
   - scope:

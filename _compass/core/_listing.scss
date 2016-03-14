@@ -102,6 +102,10 @@ ul.position-listing {
     list-style: none;
     border-bottom: 1px solid #bbb;
 
+    &:first-child {
+      border-top: 1px solid #bbb;
+    }
+
     &:nth-child(odd) {
       background-color: #f4f4f4;
     }
@@ -114,17 +118,22 @@ ul.position-listing {
       float: right;
     }
 
-    img {
-      float: left;
-      width:  50px;
+    .position-image-wrapper {
+      width: 50px;
       height: 50px;
-      margin-right: 1em;
-      margin-bottom: 0;
+      overflow: hidden;
+      display: inline-block;
+      float: left;
+      margin-right: 1.5em;
+      position: relative;
+
+      img {
+        width:  50px;
+        height: auto;
+      }
     }
   }
 }
-
-
 
 div.search-filters, div.search-pagination {
   color: #eee;

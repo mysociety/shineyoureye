@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+{% assign person = page %}
+
+<div class="title-space">
+  <div class="title-space__name">
+    <h1>{{ person.name }}</h1>
+    <p>
+      <a href="/position/executive-governor">Executive Governor</a> for {{ person.area }}
+      {% if person.end_date %}
+        {% assign date_size = person.end_date | size %}
+        {% if date_size == 4 %}
+          until {{ person.end_date }}
+        {% else %}
+          until {{ person.end_date | date_to_string }}
+        {% endif %}
+      {% endif %}
+    </p>
+  </div>
+</div>
+
+<div class="profile-pic">
+  {% if person.image %}
+    <img src="{{ person.image }}" srcset="{{ person.image }}" alt="{{ person.name }}">
+  {% else %}
+    <img src="/images/person-210x210.jpg" alt="Person logo">
+  {% endif %}
+</div>
+
+<div class="profile-info">
+
+  <div class="sidebar">
+    <div class="constituency-party">
+      {% if person.area %}
+      <h3>State</h3>
+      <ul>
+        <li>{{ person.area }}</li>
+      </ul>
+      {% endif %}
+    </div>
+  </div>
+
+  {% include social.html %}
+
+</div>
+
+<div class="large-container profile-bulk">
+
+  {% if person.summary %}
+  <h2>Summary</h2>
+  <div class="person-summary">
+    {{ person.summary | markdownify }}
+  </div>
+  {% endif %}
+
+  {% include comments.html %}
+
+</div>
