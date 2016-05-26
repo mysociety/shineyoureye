@@ -81,6 +81,3 @@ DEPENDENCIES
   jekyll-search!
   puma
   rack-jekyll
-
-BUNDLED WITH
-   1.11.2
