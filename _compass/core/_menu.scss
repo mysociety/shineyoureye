@@ -7,7 +7,6 @@
     display: block; }
   @media print { display: none; }
   background: $colour_black;
-  @include background(linear-gradient($colour_black, $colour_blackish / 1.4));
   nav {
     width: 100%;
     text-align: center;
@@ -31,10 +30,8 @@
           color: $colour_white;
           background: $colour_black;
           border-bottom: 0;
-          @include background(linear-gradient($colour_black, $colour_blackish / 1.4));
           &:hover {
-            background: $colour_blackish;
-            @include background(linear-gradient($colour_blackish / 1.4, $colour_black)); } }
+            background: $colour_blackish; } }
         &:last-child {
           border-right: 0; }
         ul {
@@ -70,7 +67,7 @@
                 float: none;
                 &:hover {
                   background: #d4d4d4; } } } } }
-        @media only all and (min-width: 720px), print { 
+        @media only all and (min-width: 720px), print {
           & {
             a {
               font-size: 14px;
@@ -93,13 +90,13 @@
 #footer-menu {
   // by default show the sub entries. Hide if the screen is big in which
   // case the menu at the top will be shown instead.
-  li > ul { 
+  li > ul {
     @media only all and (min-width: 640px), print {
       display: none;
     }
-    
+
     margin-left: 1em;
-    
+
     li {
       display: inline;
       font-size: 90%;

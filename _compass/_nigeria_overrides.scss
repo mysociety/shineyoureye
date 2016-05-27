@@ -1,34 +1,4 @@
-#main-menu {
-  background: #8DC5EB; // light blue
-  border-bottom: 2px solid #4082AF; // rich, dark blue
-
-  nav {
-    position:relative;
-    z-index:2;
-    text-align: right;
-
-    ul {
-      li {
-        border-right: 2px solid transparent;
-
-         a {
-          color: $colour_black;
-          background-image: none;
-
-          &:hover {
-            background: #C3E3F8;
-          }
-        }
-
-        &:hover ul li a:hover {
-          background: #C3E3F8;
-        }
-      }
-    }
-  }
-}
-
-
+@import 'menu';
 
 html{
   background-color: $colour_white;
