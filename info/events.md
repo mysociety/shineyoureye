@@ -5,4 +5,4 @@ permalink: "/info/events/"
 layout: page
 ---
 
-![FCT Local Government Chairmanship & Councillorship Elections](/media_root/file_archive/FCTDecides_BoucZlV.jpg "#FCTDecidesLocal")
+![FCT LGA Polls 2016](/file_archive/FCTDecidesLocal "FCT LGA Polls 2016")

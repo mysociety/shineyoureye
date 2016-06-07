@@ -1,5 +1,5 @@
 ---
-title: Interrogating the 2016 Budget – Gbenga Adesina
+title: 'Opinion: Interrogating the 2016 Budget – Gbenga Adesina'
 slug: interrogating-2016-budget-gbenga-adesina
 layout: post
 ---
