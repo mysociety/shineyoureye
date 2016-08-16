@@ -14,7 +14,7 @@ The case was struck out. And surely, the Naira rains began as the senator steppe
 
 Following enquiries from the defence lawyer, Barr. Umoh, the following were revealed:
 
-- The person who allegedly made defamatory statements on Whatsapp platform is different from who was sued
+- The person who allegedly made defamatory statements on the Whatsapp platform is different from who was sued
 
 - This is most likely as a result of ‘beef’ on the part of the senator’s media aide
 
