@@ -6,4 +6,4 @@ layout: post
 
 ![Debtor States in Nigeria (June 2015)](
 
-/file_archive/DebtorStates "Debtor States League")
+/media_root/file_archive/sye_-_States_Debtors_League.jpg "Debtor States League")

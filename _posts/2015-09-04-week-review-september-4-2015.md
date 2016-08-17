@@ -6,4 +6,4 @@ layout: post
 
 ![
 
-Week Review (September 4, 2015)](/file_archive/WeekReview4Sept2015 "Week Review (September 4, 2015)")
+Week Review (September 4, 2015)](/media_root/file_archive/SYE_-_Week_Review_-_Sept._4....jpg "Week Review (September 4, 2015)")

@@ -4,6 +4,6 @@ slug: election-postponement-anatomy
 layout: post
 ---
 
-![Postponement - Anatomy](/file_archive/Postponement
+![Postponement - Anatomy](/media_root/file_archive/ANATOMY_OF_POSTPONEMENT-SYE.png
 
  "Election Postponement (Anatomy)")

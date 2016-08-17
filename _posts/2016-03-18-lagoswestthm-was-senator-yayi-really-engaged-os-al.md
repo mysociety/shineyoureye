@@ -10,15 +10,15 @@ At 10:50am, Blue Roof Event Centre was filled with the echo “APC! APC! APC”!
 
 Right about the same time, [Senator Adeola](http://www.shineyoureye.org/person/solomon-olamilekan-adeola/ "Senator Adeola") (AKA Yayi), 50 minutes late, was squeezed in by black-vested bodyguards, as his employees (constituents) stood in ovation seeking to, if possible, look through the numerous geles.
 
-![LagosWestTHMMarch2016](/file_archive/1LagosWestTHMMarch2016 "LagosWestTHMMarch2016")
+![LagosWestTHMMarch2016](/media_root/file_archive/1_kexu9g6.jpg "LagosWestTHMMarch2016")
 
  Right after the national anthem was sung in a patriotic manner, ‘elderly’ constituents scrambled for the Senator’s publication in a manner younger men would find it hard to compete with. 
 
-![LagosWestTHMMarch2016](/file_archive/2LagosWestTHMMarch2016 "LagosWestTHMMarch2016")
+![LagosWestTHMMarch2016](/media_root/file_archive/2_Xe1lDem.jpg "LagosWestTHMMarch2016")
 
 And when it was time for the senator to deliver his report to his employers, the same time goody bags were being distributed, a good number of the constituents made sure to go for what was priority – scramble for goody bags!
 
-![LagosWestTHMMarch2016](/file_archive/4LagosWestTHMMarch2016 "LagosWestTHMMarch2016")
+![LagosWestTHMMarch2016](/media_root/file_archive/4_Jp4UP9z.jpg "LagosWestTHMMarch2016")
 
 Senator Solomon Adeola Olamilekan made sure to give recognition to Obas, Baales and Imams. More like in a bid to make up for allowing only a muslim opening prayer, he began to sing “I have decided to follow Jesus, I have decided… “. 
 

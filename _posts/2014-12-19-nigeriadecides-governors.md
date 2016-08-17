@@ -14,6 +14,6 @@ layout: post
 
 7 Governors didn’t seek senatorial offices: Taraba, Rivers, Lagos, Kano, Jigawa, Cross River and Adamawa
 
-![Nigerian Governors in 2015](/file_archive/NigeriaDecides2015-Governors
+![Nigerian Governors in 2015](/media_root/file_archive/NigeriaDecides-Governors.jpg
 
  "NigeriaDecides2015- Governors")

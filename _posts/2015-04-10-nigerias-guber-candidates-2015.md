@@ -6,4 +6,4 @@ layout: post
 
 ![2015 Guber Candidates](
 
-/file_archive/GuberCandidates "Nigerian Guber Candidates 2015")
+/media_root/file_archive/SYE_blog_photo.JPG "Nigerian Guber Candidates 2015")
