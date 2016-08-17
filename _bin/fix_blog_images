@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+require 'csv'
+
+abort "Usage: #$0 <list_of_files_to_fix>" if ARGV.empty?
+
+# The CSV was generated from a dump of the live site using the following command:
+#
+#     psql shineyoureye -c 'COPY (SELECT slug, file FROM file_archive_file) TO stdout WITH (FORMAT csv, HEADER true);' > _data/file_archive.csv
+csv = CSV.read('_data/file_archive.csv', converters: nil, headers: true, header_converters: :symbol)
+
+ARGV.each do |file|
+  contents = File.read(file)
+  csv.each do |row|
+    contents.gsub!("/file_archive/#{row[:slug]}", "/media_root/#{row[:file]}")
+  end
+  File.write(file, contents)
+end
