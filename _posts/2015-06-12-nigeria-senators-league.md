@@ -12,7 +12,7 @@ Former Governor of Kwara State, Bukola Saraki, who now represents **Kwara Centra
 
 ![Senators League](
 
-/file_archive/SenatorsLeague
+/media_root/file_archive/Complete_Sports_-_Senators_league_2.jpg
 
  "Senators League")
 

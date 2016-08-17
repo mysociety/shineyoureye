@@ -5,4 +5,4 @@ permalink: "/info/events/"
 layout: page
 ---
 
-![FCT LGA Polls 2016](/file_archive/FCTDecidesLocal "FCT LGA Polls 2016")
+![FCT LGA Polls 2016](/media_root/file_archive/FCTDecides_BoucZlV.jpg "FCT LGA Polls 2016")

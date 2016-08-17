@@ -6,4 +6,4 @@ layout: post
 
 ![#TheList (2015)](
 
-/file_archive/Ministerial-Nominee-2015 "Ministerial List 2015 (First Set)")
+/media_root/file_archive/ML2015a.jpg "Ministerial List 2015 (First Set)")
