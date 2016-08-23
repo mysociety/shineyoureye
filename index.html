@@ -81,7 +81,7 @@ events: []
         <div class="row">
             <div class="six columns">
                 <h4><b><a href="{{ site.url }}{{ site.baseurl }}/blog/">News</a></b></h4>
-              {% for post in site.posts limit:5 %}
+              {% for post in site.posts limit:3 %}
                 <h5 style="font-weight: inherit;">
                     <a style="display: block;" href="{{ post.url }}">{{ post.title }}</a>
                     <small style="display: block; font-size: 0.7em;">{{ post.date | date: "%-d %B %Y" }}</small>
@@ -90,7 +90,7 @@ events: []
             </div>
             <div class="six columns">
                 <h4><b><a href="{{ site.url }}{{ site.baseurl }}/info/events">Events</a></b></h4>
-              {% for event in page.events limit:5 %}
+              {% for event in page.events limit:3 %}
                 <h5 style="font-weight: inherit;">
                     <a style="display: block;" href="{{ post.url }}">{{ event.title }}</a>
                     <small style="display: block; font-size: 0.7em;">{{ event.date | date: "%-d %B %Y" }}</small>
