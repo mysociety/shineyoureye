@@ -2,24 +2,32 @@
 
 html{
   background-color: $colour_white;
+  font-size: 62.5%;
 }
 
 body {
   background: $colour_white;
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
 }
 
 
 #site-header {
   clear: both;
-  background: $colour_primary;
-  background-image: url(/static/images/header_bottom.png);
-  background-repeat: repeat-x;
-  background-position: bottom center;
+  background: $colour_mint_green;
 }
 
-@media only all and (min-width: 640px), print {
-  #site-header {
+
+#site-header {
+  @media only all and (min-width: 640px), print {
     height: 120px;
+  }
+
+  @media only all and (min-width: 900px), print {
+    height: 90px;
   }
 }
 
@@ -39,10 +47,13 @@ body {
     }
   }
   @media only all and (min-width: 900px), print {
-    background: url(/static/images/mz-nigeria-logo.png) 0 center no-repeat;
-    &.down {
-      background: url(/static/images/down-logo.png) 0 center no-repeat;
-    }
+    width: 150px;
+    height: 117px;
+    margin: 0;
+    top: -30px;
+    left: -10px;
+    background: url(/static/images/mz-nigeria-logo-symbol-small.png) 0 center no-repeat;
+    background-size: 150px 117px;
   }
 }
 
