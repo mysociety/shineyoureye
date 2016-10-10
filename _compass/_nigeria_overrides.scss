@@ -1,25 +1,33 @@
 @import 'menu';
 
-html{
+html {
   background-color: $colour_white;
+  font-size: 62.5%;
 }
 
 body {
   background: $colour_white;
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
 }
 
 
 #site-header {
   clear: both;
-  background: $colour_primary;
-  background-image: url(/static/images/header_bottom.png);
-  background-repeat: repeat-x;
-  background-position: bottom center;
+  background: $colour_mint_green;
 }
 
-@media only all and (min-width: 640px), print {
-  #site-header {
+
+#site-header {
+  @media only all and (min-width: 640px), print {
     height: 120px;
+  }
+
+  @media only all and (min-width: 900px), print {
+    height: 90px;
   }
 }
 
@@ -39,10 +47,13 @@ body {
     }
   }
   @media only all and (min-width: 900px), print {
-    background: url(/static/images/mz-nigeria-logo.png) 0 center no-repeat;
-    &.down {
-      background: url(/static/images/down-logo.png) 0 center no-repeat;
-    }
+    width: 150px;
+    height: 117px;
+    margin: 0;
+    top: -30px;
+    left: -10px;
+    background: url(/static/images/mz-nigeria-logo-symbol-small.png) 0 center no-repeat;
+    background-size: 150px 117px;
   }
 }
 
@@ -86,6 +97,129 @@ body {
     &:hover {
       background-color: lighten(#66b191, 10%);
     }
+  }
+}
+
+#site-footer {
+  padding: 5rem 0 4rem;
+  background: #253130;
+  border-top: none;
+  color: white;
+
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .column,
+  .columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+  }
+
+  @media (min-width: 400px) {
+    .container {
+      width: 85%;
+      padding: 0;
+    }
+  }
+
+  @media (min-width: 550px) {
+    .container {
+      width: 80%;
+    }
+
+    .column,
+    .columns {
+      margin-left: 4%;
+    }
+
+    .column:first-child,
+    .columns:first-child {
+      margin-left: 0;
+    }
+
+    .one.column,
+    .one.columns                    { width: 4.66666666667%; }
+    .two.columns                    { width: 13.3333333333%; }
+    .three.columns                  { width: 22%;            }
+    .four.columns                   { width: 30.6666666667%; }
+    .five.columns                   { width: 39.3333333333%; }
+    .six.columns                    { width: 48%;            }
+    .seven.columns                  { width: 56.6666666667%; }
+    .eight.columns                  { width: 65.3333333333%; }
+    .nine.columns                   { width: 74.0%;          }
+    .ten.columns                    { width: 82.6666666667%; }
+    .eleven.columns                 { width: 91.3333333333%; }
+    .twelve.columns                 { width: 100%; margin-left: 0; }
+
+    .one-third.column               { width: 30.6666666667%; }
+    .two-thirds.column              { width: 65.3333333333%; }
+
+    .one-half.column                { width: 48%; }
+  }
+
+  .button {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    margin-bottom: 1rem;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+
+    &:hover {
+      color: #333;
+      border-color: #888;
+      outline: 0;
+    }
+  }
+
+  .button-primary {
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #33C3F0;
+
+    &:hover {
+      color: #FFF;
+      background-color: #1EAEDB;
+      border-color: #1EAEDB;
+    }
+  }
+
+  h5 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: -.05rem;
+    margin-bottom: 2rem;
+
+    @media (min-width: 550px) {
+      font-size: 2.4rem;
+    }
+  }
+
+  p {
+    font-style: inherit;
+    color: inherit;
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
   }
 }
 

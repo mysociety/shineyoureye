@@ -36,15 +36,19 @@ events: []
 
   {% include main_menu.html %}
 
-<div style=" padding: 5rem 0 4rem;">
+<div style="padding: 5rem 0 4rem;">
   <div class="container">
-     <div class="row">
-    <div class="five columns">    <img src="http://eie.ng/wp-content/uploads/2014/10/shine-your-eye.png" class="u-max-full-width"/>   </div>
-    <div class="seven columns" style="padding-top: 4rem;">
-
-       <h5><b>Shine Your Eye</b> is an SMS and web platform that facilitates engagement with National Assembly members and other elected officials. </h5>
-      <a href="{{ site.url }}{{ site.baseurl }}/search/"><input class="button-primary" value="Find your Representative" type="submit"></a>     </div>
-  </div>
+    <div class="row">
+      <div class="five columns">
+        <img src="{{ site.url }}{{ site.baseurl }}/static/images/mz-nigeria-logo-symbol.png" class="u-max-full-width"/>
+      </div>
+      <div class="seven columns" style="padding-top: 4rem;">
+        <h5><b>Shine Your Eye</b> is an SMS and web platform that facilitates engagement with National Assembly members and other elected officials.</h5>
+        <a class="button button-primary" href="{{ site.url }}{{ site.baseurl }}/search/">
+          Find your Representative
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -138,34 +142,29 @@ events: []
   </div>
 </div>
 
-
 <div style=" padding: 5rem 0 4rem;  background: #253130; color: white;">
-         <div class="container">
-        <div class="row">
-          <div class="seven columns">
-          <h5>About Shine Your Eye</h5>
-          <p>Shine your Eye is an initiative of <a href="http://eie.ng" target="_blank" title="EiE Nigeria">Enough is Enough Nigeria (EiENigeria)</a>  with support from <a href="http://www.placng.org/" target="_blank" title="PLAC NG">Policy and Legal Advocacy Center</a>.</p>
-
-    <p>Shine Your Eye lets you follow the activities of elected officials, connect with them and share your concerns. You can view profiles of elected officials that include such information as educational background, experience, legislative interests, phone numbers and email addresses.</p>
-
-    <p>Our goal is to increase accountability in governance by making it easier for Nigerians to follow the activities of elected officials and connect with them. Curating the activities of elected officials also makes it easier to review track records at election time.</p></div>
-
-            <div class="two columns">&nbsp;</div>
-            <div class="three columns">
-            <h5>Quick Links</h5>
-            <span style="font-size: 0.9em; ">
-            <a class="button button-primary" href="{{ site.url }}{{ site.baseurl }}/search/" >Find your Representative</a>
-      <a class="button" href="{{ site.url }}{{ site.baseurl }}/blog/">Latest News</a>
-      <a class="button" href="{{ site.url }}{{ site.baseurl }}/info/democracy-resources">Democractic Resources</a>
-      <a class="button" href="{{ site.url }}{{ site.baseurl }}/info/elections">Elections</a>
-      <a class="button" href="{{ site.url }}{{ site.baseurl }}/info/events">Events</a>
-      </span>
-        </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="seven columns">
+        <h5>About Shine Your Eye</h5>
+        <p>Shine your Eye is an initiative of <a href="http://eie.ng" target="_blank" title="EiE Nigeria">Enough is Enough Nigeria (EiENigeria)</a>  with support from <a href="http://www.placng.org/" target="_blank" title="PLAC NG">Policy and Legal Advocacy Center</a>.</p>
+        <p>Shine Your Eye lets you follow the activities of elected officials, connect with them and share your concerns. You can view profiles of elected officials that include such information as educational background, experience, legislative interests, phone numbers and email addresses.</p>
+        <p>Our goal is to increase accountability in governance by making it easier for Nigerians to follow the activities of elected officials and connect with them. Curating the activities of elected officials also makes it easier to review track records at election time.</p>
       </div>
+      <div class="two columns">&nbsp;</div>
+      <div class="three columns">
+        <h5>Quick Links</h5>
+        <span style="font-size: 0.9em; ">
+          <a class="button button-primary" href="{{ site.url }}{{ site.baseurl }}/search/" >Find your Representative</a>
+          <a class="button" href="{{ site.url }}{{ site.baseurl }}/blog/">Latest News</a>
+          <a class="button" href="{{ site.url }}{{ site.baseurl }}/info/democracy-resources">Democractic Resources</a>
+          <a class="button" href="{{ site.url }}{{ site.baseurl }}/info/elections">Elections</a>
+          <a class="button" href="{{ site.url }}{{ site.baseurl }}/info/events">Events</a>
+        </span>
+      </div>
+    </div>
+  </div>
 </div>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>

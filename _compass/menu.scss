@@ -14,8 +14,8 @@
 @import 'core/menu';
 
 #main-menu {
-  background: #8DC5EB; // light blue
-  border-bottom: 2px solid #4082AF; // rich, dark blue
+  background: mix(#000, $colour_mint_green, 10%);
+  border-bottom: 1px solid mix(#000, $colour_mint_green, 25%);
 
   nav {
     position:relative;
@@ -31,14 +31,18 @@
           background: transparent;
 
           &:hover {
-            background: #C3E3F8;
+            background: #fff;
           }
         }
 
-        &:hover ul li a:hover {
-          background: #C3E3F8;
+        &:hover > a {
+          background: #fff;
         }
       }
+    }
+
+    ul li:hover ul li a {
+      background-color: #fff;
     }
   }
 }
