@@ -7,7 +7,7 @@
 
 # Site settings
 title: ShineYourEye
-email: your-email@domain.com
+email: info@eienigeria.org
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -21,8 +21,8 @@ permalink: /blog/:title/
 exclude: [Gemfile, Gemfile.lock, vendor, README.md, config.rb, app.json]
 
 # TODO: Enable once the site has gone live
-# google_analytics:
-#   tracking_code: UA-660910-14
+google_analytics:
+  tracking_code: UA-660910-14
 
 everypolitician:
   sources:
