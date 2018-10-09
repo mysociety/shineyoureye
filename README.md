@@ -1,4 +1,4 @@
-# ShineYourEye [![Build Status](https://travis-ci.org/theyworkforyou/shineyoureye.svg?branch=travis)](https://travis-ci.org/theyworkforyou/shineyoureye)
+# ShineYourEye [![Build Status](https://travis-ci.org/theyworkforyou/shineyoureye.svg?branch=master)](https://travis-ci.org/theyworkforyou/shineyoureye)
 
 This is the source code for ShineYourEye, a Parliamentary Monitoring website in Nigeria.
 
