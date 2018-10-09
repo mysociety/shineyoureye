@@ -1,3 +1,5 @@
+**NOTE**: This repository has been retired. It was a previous iteration of the [ShineYourEye](https://www.shineyoureye.org/) PMO site using Jekyll to generate a static version of the site. The newer version lives in the [shineyoureye-sinatra](https://github.com/theyworkforyou/shineyoureye-sinatra) repository, so head over there to look at the current code.
+
 # ShineYourEye [![Build Status](https://travis-ci.org/theyworkforyou/shineyoureye.svg?branch=master)](https://travis-ci.org/theyworkforyou/shineyoureye)
 
 This is the source code for ShineYourEye, a Parliamentary Monitoring website in Nigeria.
